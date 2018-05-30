@@ -1,0 +1,20 @@
+{
+  "name": "jsconfbe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "tsc": "tsc -w",
+    "http": "serve",
+    "start": "concurrently -k -p \"[{name}]\" -n \"HTTP,TSC\" -c \"bgBlue.bold,bgMagenta.bold\" \"npm run http\" \"npm run tsc\""
+  },
+  "author": "Nick Trogh",
+  "license": "MIT",
+  "dependencies": {
+    "babylonjs": "^3.2.0",
+    "concurrently": "^3.5.1",
+    "serve": "^7.0.1",
+    "systemjs": "^0.21.3",
+    "typescript": "^2.8.3"
+  }
+}

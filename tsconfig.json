@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "system",
+        "moduleResolution": "node",
+        "outDir": "js/build",
+        "rootDir": "./ts",
+        "noEmitOnError": true,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+        ".npm"
+    ],
+    "include": [
+        "ts/**/*.ts"
+    ]
+}
